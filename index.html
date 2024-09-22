@@ -7,28 +7,37 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <div class="invitation-container">
-        <header>
-            <h1>You're Invited!</h1>
-            <img src="images/birthday.svg" alt="Birthday">
-            <p class="tagline">Join us for a special evening</p>
-        </header>
-        
-        <section class="event-details">
-            <h2>Event Details</h2>
-            <p><span class="label">Date:</span> October 15, 2024</p>
-            <p><span class="label">Time:</span> 7:00 PM</p>
-            <p><span class="label">Location:</span> Grand Event Hall, 123 Main Street, Cityville</p>
-        </section>
-        
-        <section class="rsvp">
-            <p>Please confirm your attendance by clicking the button below:</p>
-            <button class="inv-btn">You're invited!</button>
-        </section>
-        
-        <footer>
-            <p>We look forward to seeing you there!</p>
-        </footer>
-    </div>
+    <main>
+        <div class="invitation-container">
+            <header>
+                <h1>You're Invited!</h1>
+                <svg>
+                    <use href="images/easy-envelope.svg#envelope"></use>
+                </svg>
+                <p class="tagline">Join us for a special evening</p>
+            </header>
+            
+            <section class="event-details">
+                <h2>Event Details</h2>
+                <p><span class="label">Date:</span> October 15, 2024</p>
+                <p><span class="label">Time:</span> 7:00 PM</p>
+                <p><span class="label">Location:</span> Grand Event Hall, 123 Main Street, Cityville</p>
+            </section>
+            <section>
+                <p>Please confirm your attendance by clicking the button below:</p>
+                <div class="container">
+                    <svg class="arrow" width="150" height="160" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <polyline points="50,20 50,80 30,60" stroke="red" stroke-width="5" fill="none" />
+                        <polyline points="50,80 70,60" stroke="red" stroke-width="5" fill="none" />
+                    </svg>
+                </div>
+                <button class="inv-btn">You're invited!</button>
+            </section>
+            
+            <footer>
+                <p>We look forward to seeing you there!</p>
+            </footer>
+        </div>
+    </main>
 </body>
 </html>
