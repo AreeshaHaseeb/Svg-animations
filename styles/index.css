@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f67272;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.invitation-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    color: #ff6347;
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.event-details h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.event-details p {
+    margin-bottom: 15px;
+}
+
+.inv-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+}
+
+.inv-btn:hover {
+    background-color: #218838;
+}
+
+footer p {
+    margin-top: 40px;
+    color: #777;
+}
